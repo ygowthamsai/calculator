@@ -3,24 +3,32 @@
 
 <head>
   <title>gowtham</title>
-  <script src="./javascript.js">
-    
-
-  </script>
+  <script src="./javascript.js"></script>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <h1>calculator</h1>
-  <label>input 1</label>
-  <input id="input1" type="number" placeholder="enter a number"></input>
-  <label>input2</label>
-  <input id="input2" type="number" placeholder="enter a number"></input>
-  <div>
-    <button onclick="calculate()">add</button>
-  </div>
-  <div id="result" > 
+  <h1 class="heading">calculator</h1>
+  <div class="form">
+    <form>
+      <label>input 1</label>
+      <input id="input1" type="number" placeholder="enter a number"></input>
+      <label>input2</label>
+      <input id="input2" type="number" placeholder="enter a number"></input>
+    </form>
   
+    <div class="submit">
+      <button onclick="calculate('add')">add</button>
+      <button onclick="calculate('sub')">sub</button>
+      <button onclick="calculate('mul')">mul</button>
+      <button onclick="calculate('div')">div</button>
+    </div>
+    <div id="result">
+  
+    </div>
   </div>
+
+
 </body>
 
 </html>

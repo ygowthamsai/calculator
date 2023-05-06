@@ -1,0 +1,22 @@
+body {
+
+  background: linear-gradient(to left, #cbce91ff, rgb(219, 16, 60));
+}
+
+.heading{
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.submit{
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+}
+
