@@ -1,22 +1,21 @@
 body {
 
-  background: linear-gradient(to right, #cbce91ff, rgb(219, 16, 60));
+  background: linear-gradient(to right, rgb(175, 184, 14), rgb(200, 16, 60));
 }
 
-.heading{
+.heading {
   text-align: center;
 }
 
-.form{
+.form {
   display: flex;
   justify-self: center;
   align-items: center;
   flex-direction: column;
 }
 
-.submit{
+.submit {
   display: flex;
   flex-direction: column;
   width: 120px;
 }
-
