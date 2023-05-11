@@ -1,1 +1,1 @@
-Website live at : army-ygs.vercel.app
+Website live at : https://army-ygs.vercel.app
